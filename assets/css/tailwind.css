@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@500&family=Fira+Mono:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-nord0 text-nord5 font-sans;
+  }
+}
+
+@layer components {
+  h1, h2 {
+    @apply font-bold text-nord5;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  h3 {
+    @apply font-bold text-nord5;
+    font-family: 'Oswald', cursive;
+  }
+
+  p {
+    @apply text-nord4;
+  }
+
+  a {
+    @apply text-nord9;
+  }
+
+  .btn {
+    @apply inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+  }
+}
