@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Giovani Dev - Projetos
+    </title>
+    <meta charset="UTF-8"/>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="../../assets/css/outros.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.4/src/app/ci.min.css"/> 
+    <link rel="stylesheet" href="/style.css?v=1733166861748"/>
+    
+    <script src="/js/alpine.js?v=1733166861748"></script>
+    <link rel="icon" href="../../assets/coisas/icone.ico" type="image/x-icon">
+  </head>
+  <body>
+    
+      
+<header class="bg-nord1 p-4">
+  <nav class="flex items-center justify-between max-w-screen-lg mx-auto">
+    <div class="text-xl font-semibold text-nord5">
+      <a href="/">Giovani Bontempo</a>
+    </div>
+    <!-- Mobile menu button -->
+  </nav>
+</header>
+
+<section id="projects" class="py-16 bg-nord1 text-nord5 min-h-screen">
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-5xl lg:text-7xl font-bebas">Meus Projetos</h2>
+    <p class="text-xl text-nord4 mt-1">Aqui estão alguns dos projetos que desenvolvi:</p>
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      
+      <div class="bg-nord0 p-6 rounded-lg shadow-md">
+        <img class="mb-4 mx-auto w-300 h-150 object-cover rounded" src="https://github.com/gio-bon/Fakegram/raw/main/capturas/Fakegran-black.png?raw=true">
+        <h3 class="text-2xl font-semibold text-nord14"><i class="nf nf-fa-code_branch"></i> Fakegram</h3>
+        <a href="https://github.com/gio-bon/Fakegram" class="btn mt-3" target="_blank">Código</a>
+
+        
+          <a href="https://gio-bon.github.io/Fakegram/" class="btn mt-3" target="_blank">Deploy</a>
+        
+        
+        <p class="text-nord4 mt-4">Recriação da tela de login do Instagram.</p>
+      </div>
+       
+      
+    </div>
+
+<!-- Paginação -->
+
+<nav aria-labelledby="my-pagination" class="pagination mt-8">
+  <div class="flex justify-between">
+    <!-- Previous Button -->
+    
+    <a href="/projects-page/index.html" class="flex items-center justify-center px-3 h-8 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+      Anterior
+    </a>
+    
+
+    <!-- Next Button -->
+    
+    <span class="flex items-center justify-center px-3 h-8 text-sm font-medium text-nord1 bg-nord1 border border-nord1 rounded-lg">
+      Próxima
+    </span>
+    
+  </div>
+</nav>
+
+
+    
+  </div>
+</section>
+
+<script>
+  const activePage = document.querySelector('.pagination li.active a');
+  if (activePage) {
+      activePage.classList.add('active-page');
+  }
+
+  const pageNumbers = document.querySelectorAll('.pagination li:not(.active) a');
+  pageNumbers.forEach((pageNumber) => {
+      pageNumber.classList.add('page-number-notactive');
+  });
+</script>
+    
+  </body>
+</html>
