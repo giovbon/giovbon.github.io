@@ -1069,19 +1069,18 @@ a{
   color: rgb(229 233 240 / var(--tw-text-opacity, 1));
 }
 
+.text-nord7{
+  --tw-text-opacity: 1;
+  color: rgb(143 188 187 / var(--tw-text-opacity, 1));
+}
+
 .text-nord9{
   --tw-text-opacity: 1;
   color: rgb(129 161 193 / var(--tw-text-opacity, 1));
 }
 
-.text-nord6{
-  --tw-text-opacity: 1;
-  color: rgb(236 239 244 / var(--tw-text-opacity, 1));
-}
-
-.text-nord8{
-  --tw-text-opacity: 1;
-  color: rgb(136 192 208 / var(--tw-text-opacity, 1));
+.opacity-100{
+  opacity: 1;
 }
 
 .opacity-30{
@@ -1090,10 +1089,6 @@ a{
 
 .opacity-50{
   opacity: 0.5;
-}
-
-.opacity-80{
-  opacity: 0.8;
 }
 
 .shadow-md{
